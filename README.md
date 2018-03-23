@@ -10,11 +10,11 @@ Dependencies
 ------------
 This layer depends on:
 
-  URI: https://github.com/slawr/meta-renesas.git
-  branch: pyro
+  URI: https://github.com/renesas-rcar/meta-renesas.git
+  branch: rocko
 
   URI: https://github.com/GENIVI/meta-ivi.git
-  branch: 13.0
+  branch: 14.x
 
 
 Patches
@@ -42,10 +42,12 @@ other layers needed. e.g.:
     /path/to/yocto/meta \
     /path/to/yocto/meta-poky \
     /path/to/yocto/meta-yocto-bsp \
+    /path/to/yocto/meta-openembedded/meta-oe \
+    /path/to/yocto/meta-openembedded/meta-filesystems \
+    /path/to/yocto/meta-gplv2 \
     /path/to/yocto/meta-renesas/meta-rcar-gen3 \
-    /path/to/yocto/meta-linaro/meta-linaro-toolchain \
     /path/to/yocto/meta-linaro/meta-optee \
     /path/to/yocto/meta-ivi \
+    /path/to/yocto/meta-ivi-bsp \
     /path/to/yocto/meta-ivi-renesas \
-    "
 ```
