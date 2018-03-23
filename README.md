@@ -1,10 +1,13 @@
-This README file contains information on the contents of the
-meta-ivi-renesas layer.
+meta-ivi-renesas: adopting meta-ivi to Renesas SoCs
+===================================================
+This layer adapts the Renesas R-Car Yocto BSP to the needs of meta-ivi
+and the Genivi Yocto Baseline.
 
 Please see the corresponding sections below for details.
 
-## Dependencies
 
+Dependencies
+------------
 This layer depends on:
 
   URI: https://github.com/slawr/meta-renesas.git
@@ -14,21 +17,17 @@ This layer depends on:
   branch: 13.0
 
 
-## Patches
+Patches
+-------
 
 Please submit any patches against the meta-ivi-renesas layer to GitHub
-as a pull request or email the maintainer:
+as a pull request (preferred) or email the maintainer.
 
 Maintainer: Stephen Lawrence (Renesas)
 
 
-## Table of Contents
-
-####  I. Adding the meta-ivi-renesas layer to your build
-#### II. Misc
-
-
-###   I. Adding the meta-ivi-renesas layer to your build
+Adding the meta-ivi-renesas layer to your build
+-----------------------------------------------
 
 In order to use this layer, you need to make the build system aware of
 it.
@@ -50,7 +49,3 @@ other layers needed. e.g.:
     /path/to/yocto/meta-ivi-renesas \
     "
 ```
-
-###    II. Misc
-
-
