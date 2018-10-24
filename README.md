@@ -11,10 +11,10 @@ Dependencies
 This layer depends on:
 
   URI: https://github.com/renesas-rcar/meta-renesas.git
-  branch: rocko
+  branch: sumo-dev
 
   URI: https://github.com/GENIVI/meta-ivi.git
-  branch: 14.x
+  branch: 14.x-sumo
 
 
 Patches
