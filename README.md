@@ -40,15 +40,20 @@ other layers needed. e.g.:
 
 ```
   BBLAYERS ?= " \
-    /path/to/yocto/meta \
-    /path/to/yocto/meta-poky \
-    /path/to/yocto/meta-yocto-bsp \
+    /path/to/yocto/poky/meta \
+    /path/to/yocto/poky/meta-poky \
+    /path/to/yocto/poky/meta-yocto-bsp \
     /path/to/yocto/meta-openembedded/meta-oe \
     /path/to/yocto/meta-openembedded/meta-filesystems \
     /path/to/yocto/meta-gplv2 \
     /path/to/yocto/meta-renesas/meta-rcar-gen3 \
     /path/to/yocto/meta-linaro/meta-optee \
     /path/to/yocto/meta-ivi \
-    /path/to/yocto/meta-ivi-bsp \
+    /path/to/yocto/meta-ivi/meta-ivi-bsp \
     /path/to/yocto/meta-ivi-renesas \
 ```
+
+More detailed information on building the Genivi Baseline and GDP for
+R-Car platforms can be found on the Genivi wiki [1].
+
+[1] https://at.projects.genivi.org/wiki/x/XYWw
