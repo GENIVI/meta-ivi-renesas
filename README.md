@@ -11,11 +11,12 @@ Dependencies
 This layer depends on:
 
   URI: https://github.com/renesas-rcar/meta-renesas.git
-  branch: sumo-dev
+  branch: thud-dev
 
   URI: https://github.com/GENIVI/meta-ivi.git
-  branch: 14.x-sumo
-
+  branch: master (*1)
+  
+*1: Currently meta-ivi has no thud release branch.
 
 Patches
 -------
