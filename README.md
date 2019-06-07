@@ -14,13 +14,10 @@ This layer depends on:
   branch: thud-dev
 
   URI: https://github.com/GENIVI/meta-ivi.git
-  branch: master (*1)
-  
-*1: Currently meta-ivi has no thud release branch.
+  branch: 15.x-thud
 
 Patches
 -------
-
 Please submit any patches against the meta-ivi-renesas layer to GitHub
 as a pull request (preferred) or email the maintainer.
 
@@ -29,7 +26,6 @@ Maintainer: Stephen Lawrence (Renesas)
 
 Adding the meta-ivi-renesas layer to your build
 -----------------------------------------------
-
 In order to use this layer, you need to make the build system aware of
 it.
 
